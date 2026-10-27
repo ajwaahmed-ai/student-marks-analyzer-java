@@ -10,7 +10,7 @@ public class main {
         }
 
         return (double) total / marks.length;
-    }
+  }
 
     public static String getGrade(double average) {
         if (average >= 80) {
@@ -75,9 +75,7 @@ public class main {
                     sc.next(); // Clear invalid input
                 }
             }
-        }
-
-        double average = calculateAverage(marks);
+ateAverage(marks);
 
         System.out.println("\nStudent: " + name);
         System.out.println("Average: " + average);
